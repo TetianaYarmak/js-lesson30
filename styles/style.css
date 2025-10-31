@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+  background-color: lightyellow;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid yellow;
+  font-style: italic;
+}

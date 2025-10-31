@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.back {
+  background-color: lightyellow;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid green;
+  font-size: 16px;
+  font-style: italic;
+  display: block;
+}
+
+.container {
+  display: inline-block;
+}
+
+.traffic-light {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: #555;
+  transition: background-color 0.3s;
+}
+
+.red.active {
+  background-color: red;
+}
+
+.yellow.active {
+  background-color: yellow;
+}
+
+.green.active {
+  background-color: green;
+}
+
+#switchBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
