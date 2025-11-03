@@ -12,7 +12,7 @@ ul {
   list-style: none;
 }
 
-a {
+.task-link {
   text-decoration: none;
   color: inherit; 
   background-color: lightyellow;
