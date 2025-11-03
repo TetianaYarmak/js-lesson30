@@ -7,10 +7,12 @@
   <title>Світлофор</title>
   <link rel="stylesheet" href="styles/style-task3.css">
   <script src="script-task3.js"></script>
-
+  <script src="common.js" defer></script>
 </head>
 
-<body>
+<body hidden>
+  <common-header></common-header>
+
   <button class="back" onclick="window.location.href='index.html'">Back to main</button>
 
   <div class="container">
@@ -21,6 +23,7 @@
     </div>
     <button id="switchBtn">Перемкнути</button>
   </div>
+  <common-footer></common-footer>
 </body>
 
 </html>

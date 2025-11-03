@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Модальне вікно</title>
-    <link rel="stylesheet" href="styles/style-task2.css">
+  <link rel="stylesheet" href="styles/style-task2.css">
   <script src="script-task2.js" defer></script>
-
+  <script src="common.js" defer></script>
 </head>
-<body>
-    <button onclick="window.location.href='index.html'" class="back">Back to main</button>
-    <button id="openModal">Відкрити</button>
+
+<body hidden>
+  <common-header></common-header>
+
+  <button onclick="window.location.href='index.html'" class="back">Back to main</button>
+  <button id="openModal">Відкрити</button>
 
   <div id="modal" class="modal">
     <div class="modal-content">
@@ -18,6 +22,7 @@
       <button id="closeModal">Закрити</button>
     </div>
   </div>
-
+  <common-footer></common-footer>
 </body>
+
 </html>
